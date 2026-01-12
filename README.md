@@ -1,43 +1,30 @@
-# Astro Starter Kit: Minimal
+💼 Portfólio — Carlos Vitor
 
-```sh
-npm create astro@latest -- --template minimal
-```
+Portfólio profissional desenvolvido para apresentar minha atuação como Analista de TI e Desenvolvedor Full-Stack, com foco em BI corporativo, automação e soluções web modernas.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+🔗 Online: https://portfolio-carlos.vercel.app
 
-## 🚀 Project Structure
+📍 Localização: Brasília – DF
+💼 Atuação: Prestação de serviços PJ • Projetos sob contrato
 
-Inside of your Astro project, you'll see the following folders and files:
+🧠 Sobre
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+Sou Analista de TI formado em Ciência da Computação, com atuação em suporte técnico especializado no ecossistema Qlik (Qlik Sense, NPrinting e QMC), trabalhando com SQL, BI e troubleshooting em ambientes corporativos críticos.
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+No desenvolvimento, construo aplicações full-stack com Next.js, Prisma e PostgreSQL, entregando soluções com autenticação, controle de acesso, deploy em produção e integrações reais como Stripe e APIs REST.
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+Tenho foco em código limpo, bem documentado e em soluções estáveis, seguras e escaláveis, sempre priorizando performance e qualidade das entregas.
 
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+🛠️ Stack Principal
+Categoria	Tecnologias
+Front-end	Astro, Tailwind CSS
+Back-end	Next.js, Node.js, Prisma
+Dados & BI	Qlik Sense, NPrinting, Power BI, SQL
+Banco de Dados	PostgreSQL, MySQL, SQL Server
+Infra	Docker, Linux, Windows Server
+Ferramentas	Git, Jira, GLPI, OTRS, Zendesk
+📂 Projetos em Destaque
+Projeto	Stack	Descrição
+OdontoPro	Next.js, Prisma, PostgreSQL, Stripe	Plataforma SaaS para gestão de clínicas odontológicas
+Automações Corporativas	Node.js, APIs REST	Integrações e automações de sistemas
+Projetos BI	Qlik Sense, SQL	Dashboards e relatórios corporativos
