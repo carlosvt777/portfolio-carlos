@@ -1,0 +1,65 @@
+---
+const { email, linkedin, github, whatsapp, location } = Astro.props;
+---
+
+<div class="rounded-2xl border border-zinc-800 bg-zinc-900/40 p-5">
+  <p class="text-sm text-zinc-400">Vamos conversar</p>
+
+  <div class="mt-4 space-y-3 text-sm">
+    {email && (
+      <div class="flex items-center justify-between gap-3">
+        <a class="text-zinc-200 hover:text-white" href={`mailto:${email}`}>
+          {email}
+        </a>
+        <button
+          class="rounded-lg border border-zinc-800 px-3 py-1 text-xs text-zinc-300 hover:border-zinc-700"
+          onclick={`navigator.clipboard.writeText('${email}')`}
+          type="button"
+        >
+          Copiar
+        </button>
+      </div>
+    )}
+
+    {linkedin && (
+      <a class="block text-zinc-200 hover:text-white" href={linkedin} target="_blank">
+        LinkedIn
+      </a>
+    )}
+
+    {github && (
+      <a class="block text-zinc-200 hover:text-white" href={github} target="_blank">
+        GitHub
+      </a>
+    )}
+
+    {whatsapp && (
+      <a class="block text-zinc-200 hover:text-white" href={whatsapp} target="_blank">
+        WhatsApp
+      </a>
+    )}
+
+    {location && <p class="text-xs text-zinc-500">{location}</p>}
+  </div>
+
+  <div class="mt-5 flex flex-wrap gap-3">
+    {email && (
+      <a
+        class="rounded-xl bg-white px-4 py-2 text-sm font-semibold text-zinc-900"
+        href={`mailto:${email}`}
+      >
+        Enviar email
+      </a>
+    )}
+
+    {linkedin && (
+      <a
+        class="rounded-xl border border-zinc-800 px-4 py-2 text-sm text-zinc-200 hover:border-zinc-700"
+        href={linkedin}
+        target="_blank"
+      >
+        LinkedIn
+      </a>
+    )}
+  </div>
+</div>
