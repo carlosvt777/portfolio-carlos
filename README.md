@@ -5,7 +5,6 @@ Portfólio profissional desenvolvido para apresentar minha atuação como Analis
 🔗 Online: https://portfolio-carlos.vercel.app
 
 📍 Localização: Brasília – DF
-💼 Atuação: Prestação de serviços PJ • Projetos sob contrato
 
 🧠 Sobre
 
